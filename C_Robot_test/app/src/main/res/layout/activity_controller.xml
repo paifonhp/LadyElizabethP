@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/layoutLeft"
+        android:layout_width="80dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/controller_bg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutRight"
+        android:layout_width="80dp"
+        android:layout_height="280dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/controller_bg"
+        android:layout_alignTop="@+id/layoutLeft"
+        android:layout_alignParentEnd="true">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connet Robot : "
+        android:id="@+id/textView7"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView7" />
+
+</RelativeLayout>
